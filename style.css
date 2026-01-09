@@ -14,7 +14,7 @@ a {
 	text-decoration: none;
 }
 
-ul li {
+li {
 	list-style: none;
 }
 
@@ -263,4 +263,84 @@ ul li {
 	line-height: 20px;
 	letter-spacing: 0%;
 	text-align: center;
+}
+
+.brain-contaner {
+	padding: 100px 0;
+	width: 100%;
+}
+
+.brain-part-1 {
+	flex-basis: 40%;
+	width: 40%;
+}
+
+.brain-part-1 img {
+	display: block;
+	width: 100%;
+}
+.brain-part-2 {
+	flex-basis: 60%;
+	width: 60%;
+}
+
+.brain-part-2 {
+	display: flex;
+	padding-left: 120px;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.brain-part-2 span {
+	color: #30b868;
+
+	font-style: Medium;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 0%;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.brain-part-2 h2 {
+	color: #001931;
+
+	font-style: Bold;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 58px;
+	letter-spacing: 0%;
+	text-align: left;
+	text-transform: capitalize;
+}
+
+.brain-part-2 p {
+	color: #627382;
+
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	letter-spacing: 0%;
+	text-align: left;
+}
+
+.flex-li {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	gap: 8px;
+	color: var(--Style, rgba(0, 25, 49, 1));
+	font-style: Medium;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 0%;
+	text-align: left;
+}
+
+.list-note {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 }
