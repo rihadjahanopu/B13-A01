@@ -344,3 +344,40 @@ li {
 	flex-direction: column;
 	gap: 10px;
 }
+
+.thanks {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	gap: 24px;
+	border-radius: 12px;
+	background: rgba(247, 246, 242, 1);
+	padding: 80px 40px;
+	margin-bottom: 100px;
+}
+
+.tnk-btn {
+	max-width: max-content;
+	margin: 0 auto;
+}
+
+.thanks h2 {
+	color: rgba(0, 25, 49, 1);
+	font-style: Bold;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 48px;
+	letter-spacing: 0%;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.thanks p {
+	color: #627382;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0%;
+	text-align: center;
+}
